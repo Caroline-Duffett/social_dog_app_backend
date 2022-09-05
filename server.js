@@ -12,6 +12,7 @@ const app = express()
 //___________________
 //Controllers
 //___________________
+const usersController = require('./controllers/locations.js')
 
 
 
@@ -43,11 +44,12 @@ app.use(cors())
 //___________________
 //Routes
 //___________________
+app.use(usersController)
 
 
 //redirect for heroku
 app.get('/', (req, res) => {
-  res.redirect('/locations')
+  res.redirect('/')
 })
 
 
