@@ -1,0 +1,46 @@
+{
+  "name": "social_dog_app_backend",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "description": "Social dog app backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caroline-Duffett/social_dog_app_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caroline-Duffett/social_dog_app_backend/issues"
+  },
+  "homepage": "https://github.com/Caroline-Duffett/social_dog_app_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  }
+}
+
+
+
+
+
+
+
+
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4"
+  }
+}
